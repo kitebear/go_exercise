@@ -9,15 +9,15 @@ type Pet interface {
 
 type Dog struct {
 	name string
-	age  uint8
+	age  string
 }
 
-func (dog Dog) Name() string {
-	return dog.name
+func (d Dog) Name() string {
+	return d.name
 }
 
-func (dog Dog) Age() uint8 {
-	return dog.age
+func (d Dog) Age() uint8 {
+	return d.age
 }
 
 func main() {
