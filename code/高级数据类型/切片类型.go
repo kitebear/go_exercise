@@ -36,4 +36,8 @@ func main() {
 	// fmt.Println("after modifying underlying array:")
 	// fmt.Println("slice: ", slice)
 	// fmt.Println("newSlice: ", newSlice)
+
+	sliceE := newSlice[:]
+
+	fmt.Println("sliceE: ", sliceE)
 }
