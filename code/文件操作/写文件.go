@@ -76,6 +76,7 @@ func main() {
 	// fmt.Println("n2 : ", n2)
 	// readFile(path)
 
+	// Block 4
 	content := "hello"
 	newFile, err := os.Create(path)
 	errCheck(err)
