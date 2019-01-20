@@ -1,0 +1,7 @@
+<Stu note="MyNode">
+    <name>myName</name>
+    <parent>
+        <mother>myMother</mother>
+        <father>myFather</father>
+    </parent>
+</Stu>
